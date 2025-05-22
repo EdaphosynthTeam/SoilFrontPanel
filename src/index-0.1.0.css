@@ -1,0 +1,77 @@
+body {
+    background-color: #e0e0e0;
+}
+
+.content-item {
+    margin-block: 10px;
+}
+
+.dashboard-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#time-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+:root {
+    --primary-color: #1890ff;
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+}
+
+[data-theme="dark"] {
+    --primary-color: #177ddc;
+    --bg-color: #1f1f1f;
+    --text-color: #fff;
+}
+
+[data-theme="leave"] {
+    --primary-color: #4caf50;
+    --bg-color: #e8f5e9;
+    --text-color: #2e7d32;
+}
+
+[data-theme="flower"] {
+    --primary-color: #e91e63;
+    --bg-color: #fce4ec;
+    --text-color: #ad1457;
+}
+
+[data-theme="minecraft"] {
+    --primary-color: #8bc34a;
+    --bg-color: #c8e6c9;
+    --text-color: #33691e;
+}
+
+#err-reload {
+    color: blue;
+}
+
+#err-reload:hover {
+    text-decoration: underline;
+}
+
+.alarm-icon {
+    position: relative;
+    overflow: hidden;
+}
+
+.alarm-icon svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* 添加拖动相关样式 */
+.draggable-modal .ant-modal-header {
+    cursor: move;
+    user-select: none;
+}
+
+.draggable-modal .ant-modal-content {
+    transition: none !important;
+}
+
+.draggable-modal .ant-modal-content {
+    overflow: hidden;
+}
