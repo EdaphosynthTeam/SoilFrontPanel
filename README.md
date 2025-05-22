@@ -13,14 +13,14 @@ Note:
 - The project is currently in the testing phase and there may be some unspeakable problems. Suggestions and feedback (issue) are welcome.
 
 ## Features
-- **AI Summary**
+- **AI Summary**<br>
 After configuring the backend ***(you can refer to the test backend code under the `/test` folder)***, you can open the deployed `index.html` and enable the AI summary function in the `System Settings` interface. The AI will summarize the current soil conditions and provide suggestions.
-- **Alarm System**
+- **Alarm System**<br>
 Enable the alarm system in the `System Settings` interface. When the soil conditions exceed the set range, an alarm will be triggered.
-- **Data Recording** (requires slight modification and backend configuration)
+- **Data Recording** (requires slight modification and backend configuration)<br>
 In the `Dashboard`, you can directly see the historical data;
 In addition, you can click the **Export Log** button in the `Debug` menu to export the current soil condition data and save it as a zip file.
-- **Data Visualization**
+- **Data Visualization**<br>
 Based on [AntV/G2](https://g2.antv.antgroup.com/) data visualization, you can see ***visualization charts*** in the `Dashboard`.
 
 ##### The team worked hard to create this. If it helps you, please give it a star, thank you!
