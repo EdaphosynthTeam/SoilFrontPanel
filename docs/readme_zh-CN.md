@@ -1,4 +1,5 @@
 # SoilFrontPanel
+### 开发者：“智壤魔探”开源项目开发组
 一个轻量级基于React的土壤检测面板（需要自行搭建后端）
 
 [English](https://github.com/EdaphosynthTeam/SoilFrontPanel/blob/main/README.md) | 中文
